@@ -1,9 +1,4 @@
----
-
 wp_mysql_db: wordpress
 wp_mysql_user: wp_user
 wp_mysql_password: welcome
-wp_mysql_host: localhost
-
-
 

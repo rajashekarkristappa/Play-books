@@ -6,7 +6,14 @@
 - name: Create mysql user
   mysql_user: 
     name={{ wp_mysql_user }} 
-    password={{ wp_mysql_password }} 
+    password={{ wp_mysql_password }}
+    host={{ wp_mysql_host }} 
     priv=*.*:ALL
 
-  become: yes  
+  become: yes 
+
+
+
+
+
+ 
