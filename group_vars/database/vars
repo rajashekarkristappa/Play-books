@@ -1,0 +1,8 @@
+
+#non sensitive data
+wp_mysql_db: wordpress
+wp_mysql_user: wp_user
+
+#sensitive data
+wp_mysql_password: "{{ vault_wp_mysql_password }}"
+
